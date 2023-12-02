@@ -1,8 +1,25 @@
-# React + Vite
+Para iníciar o projeto:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---    
 
-Currently, two official plugins are available:
+Instalando modulos:
+Para instalar os modulos necessários execute o comando,
+    
+    npm i
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---    
+
+Configuração inicial:Este projeto utiliza firebase para conectar em seu banco de dados configure o objeto firebaseConfig no arquivo src/services/firebaseConnection.jsx:
+
+    apiKey: "AIzaSyB9zGzW",
+    authDomain: "lista-de-tarefa",
+    projectId: "lista-de-tarefa",
+    storageBucket: "lista-de-tarefa",
+    messagingSenderId: "5797",
+    appId: "1:579781"
+
+---
+
+Iniciar projeto:
+
+    npm run dev
